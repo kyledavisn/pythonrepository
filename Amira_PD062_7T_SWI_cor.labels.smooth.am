@@ -1,0 +1,129 @@
+# AmiraMesh BINARY-LITTLE-ENDIAN 2.1 <hxsurface>
+
+
+nVertices 11205
+define NBranchingPoints 0
+define NVerticesOnCurves 0
+define BoundaryCurves 0
+nTriangles 22580
+define Patches 9
+define Patches-0 6600
+define Patches-1 6106
+define Patches-2 2632
+define Patches-3 2672
+define Patches-4 12
+define Patches-5 1700
+define Patches-6 884
+define Patches-7 428
+define Patches-8 1546
+
+Parameters {
+    Materials {
+        Exterior {
+            Color 0.7 0.8 0.8,
+            Id 0
+        }
+        Inside {
+            Color 0.25098 0.878431 0.815686,
+            Id 1
+        }
+        L_RN {
+            Color 0.863005 0.0939956 0.0939956,
+            Id 2
+        }
+        R_RN {
+            Color 0.863005 0.0939956 0.0939956,
+            Id 3
+        }
+        L_SN {
+            Color 0.231006 0.231006 0.968994,
+            Id 4
+        }
+        R_SN {
+            Color 0.231006 0.231006 0.968994,
+            Id 5
+        }
+        L_STN {
+            Color 0.949996 0.850004 0.0939956,
+            Id 6
+        }
+        R_STN {
+            Color 0.949996 0.850004 0.0939956,
+            Id 7
+        }
+    }
+    BoundaryIds {
+        name "BoundaryConditions"
+    }
+    __Patches-0 {
+        InnerRegion "L_SN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-1 {
+        InnerRegion "R_SN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-2 {
+        InnerRegion "L_RN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-3 {
+        InnerRegion "R_RN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-4 {
+        InnerRegion "R_SN",
+        OuterRegion "R_RN",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-5 {
+        InnerRegion "L_STN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-6 {
+        InnerRegion "L_STN",
+        OuterRegion "L_SN",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-7 {
+        InnerRegion "R_STN",
+        OuterRegion "R_SN",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    __Patches-8 {
+        InnerRegion "R_STN",
+        OuterRegion "Exterior",
+        BoundaryID 0,
+        BranchingPoints 0
+    }
+    GridBox -95.113 105.278 -64.2183 -15.4183 -81.3007 119.09,
+    GridSize 514 62 514
+}
+
+Vertices { float[3] Vertices } @1
+TriangleData { int[7] Triangles } @2
+Patches-0 { int Patches-0 } @3
+Patches-1 { int Patches-1 } @4
+Patches-2 { int Patches-2 } @5
+Patches-3 { int Patches-3 } @6
+Patches-4 { int Patches-4 } @7
+Patches-5 { int Patches-5 } @8
+Patches-6 { int Patches-6 } @9
+Patches-7 { int Patches-7 } @10
+Patches-8 { int Patches-8 } @11
+
+# Data section follows
+@1

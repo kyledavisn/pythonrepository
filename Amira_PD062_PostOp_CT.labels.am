@@ -1,0 +1,38 @@
+# AmiraMesh BINARY-LITTLE-ENDIAN 2.1
+
+
+define Lattice 512 403 586
+
+Parameters {
+    Materials {
+        Exterior {
+            Color 0.7 0.8 0.8,
+            Id 0
+        }
+        Inside {
+            Color 0.25098 0.878431 0.815686,
+            Id 1
+        }
+        Electrode {
+            Color 0.16 0.8 0.402425,
+            Id 2
+        }
+    }
+    Seeds {
+        Slice0288 {
+            S0292x0194 2 1882 3071 3
+        }
+    }
+    Colormap "labels.am",
+    Content "512x403x586 byte, uniform coordinates",
+    TransformationMatrix 1.01145 0.0216571 0.0187044 0 -0.0158865 1.00276 -0.123875 0 -0.0269546 0.122356 0.995853 0 18.1199 111.309 -534.667 1,
+    BoundingBox -96.7832 96.8038 -283.156 -41.956 414.662 636.283,
+    CoordType "uniform"
+}
+
+Lattice { byte Labels } @1(HxByteRLE,1909807)
+@1
+
+
+
+

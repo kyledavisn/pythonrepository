@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Amira, www.visageimaging.com -->
+<Atlas>
+ <Area abbrev="Exterior" value="1" id="empty" name="Exterior">
+  <color g="204" r="179" b="204"/>
+  <Surface>Exterior</Surface>
+ </Area>
+ <Area abbrev="Inside" value="2" id="empty" name="Inside">
+  <color g="224" r="64" b="208"/>
+  <Surface>Inside</Surface>
+ </Area>
+ <Area abbrev="RN_L" value="3" id="empty" name="RN_L">
+  <color g="24" r="220" b="24"/>
+  <Surface>RN_L</Surface>
+ </Area>
+ <Area abbrev="RN_R" value="4" id="empty" name="RN_R">
+  <color g="24" r="220" b="24"/>
+  <Surface>RN_R</Surface>
+ </Area>
+ <Area abbrev="SN_L" value="5" id="empty" name="SN_L">
+  <color g="59" r="59" b="247"/>
+  <Surface>SN_L</Surface>
+ </Area>
+ <Area abbrev="SN_R" value="6" id="empty" name="SN_R">
+  <color g="59" r="59" b="247"/>
+  <Surface>SN_R</Surface>
+ </Area>
+ <Area abbrev="STN_L" value="7" id="empty" name="STN_L">
+  <color g="217" r="242" b="24"/>
+  <Surface>STN_L</Surface>
+ </Area>
+ <Area abbrev="STN_R" value="8" id="empty" name="STN_R">
+  <color g="217" r="242" b="24"/>
+  <Surface>STN_R</Surface>
+ </Area>
+</Atlas>

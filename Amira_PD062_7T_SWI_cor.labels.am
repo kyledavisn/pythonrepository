@@ -1,0 +1,52 @@
+# AmiraMesh BINARY-LITTLE-ENDIAN 2.1
+
+
+define Lattice 512 60 512
+
+Parameters {
+    Materials {
+        Exterior {
+            Color 0.7 0.8 0.8,
+            Id 0
+        }
+        Inside {
+            Color 0.25098 0.878431 0.815686,
+            Id 1
+        }
+        L_RN {
+            Color 0.863005 0.0939956 0.0939956,
+            Id 2
+        }
+        R_RN {
+            Color 0.863005 0.0939956 0.0939956,
+            Id 3
+        }
+        L_SN {
+            Color 0.231006 0.231006 0.968994,
+            Id 4
+        }
+        R_SN {
+            Color 0.231006 0.231006 0.968994,
+            Id 5
+        }
+        L_STN {
+            Color 0.949996 0.850004 0.0939956,
+            Id 6
+        }
+        R_STN {
+            Color 0.949996 0.850004 0.0939956,
+            Id 7
+        }
+    }
+    Colormap "labels.am",
+    Content "512x60x512 byte, uniform coordinates",
+    TransformationMatrix 0.992574 -0.0287725 -0.118191 0 0.0498273 0.982539 0.179262 0 0.110969 -0.183819 0.976676 0 -10.7154 17.9865 2.94167 1,
+    BoundingBox -94.7224 104.887 -63.4183 -16.2183 -80.9101 118.699,
+    CoordType "uniform"
+}
+
+Lattice { byte Labels } @1(HxByteRLE,252111)
+
+# Data section follows
+@1
+
